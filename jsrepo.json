@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/jsrepo@1.44.2/schemas/project-config.json",
+  "repos": ["https://reactbits.dev/tailwind", "github/ieedan/std"],
+  "includeTests": false,
+  "watermark": true,
+  "formatter": "prettier",
+  "configFiles": {},
+  "paths": {
+    "*": "./src/Components",
+    "Animations": "./src/Animations",
+    "Components": "./src/Components",
+    "Backgrounds": "./src/Backgrounds",
+    "TextAnimations": "./src/TextAnimations"
+  }
+}
