@@ -23,7 +23,7 @@ export default function Hero() {
           </div>
           <div className="flex flex-row gap-5 items-center w-full justify-start">
           <h1 className="text-left text-2xl lg:text-4xl font-semibold">
-              I'm a
+              I&apos;m a
             </h1>
           <RotatingText
   texts={['FULL STACK', 'GRAPHIC DESIGNER', 'VIDEO EDITOR', 'DEVELOPER']}
@@ -57,4 +57,5 @@ export default function Hero() {
       </div>
     </>
     )
+
 }
